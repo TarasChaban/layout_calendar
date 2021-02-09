@@ -1,0 +1,21 @@
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  width: $box-and-margin * 7;
+}
+
+.calendar > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 $box-size;
+  margin: 1px 1px 0 0;
+  height: $box-size;
+  background-color: #eee;
+  border: 1px solid;
+}
+
+.calendar > div:hover {
+  cursor: pointer;
+}
