@@ -4,9 +4,9 @@ $box-and-margin: $box-size + $box-margin;
 $numbers-of-days: 28, 29, 30, 31;
 $first-day:
   "mon" 0,
-  "tue" $box-and-margin
-  "wed" $box-and-margin * 2
-  "thu" $box-and-margin * 3
-  "fri" $box-and-margin * 4
-  "sat" $box-and-margin * 5
+  "tue" $box-and-margin,
+  "wed" $box-and-margin * 2,
+  "thu" $box-and-margin * 3,
+  "fri" $box-and-margin * 4,
+  "sat" $box-and-margin * 5,
   "sun" $box-and-margin * 6;
